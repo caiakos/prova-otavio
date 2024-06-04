@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Otavio</title>
+    <link rel="stylesheet" href="stylesme.css">
+</head>
+<body>
+    <div id="caixa">
+        <h4>Aluno: Caio Drumond de Abreu Rebouças</h4>
+        <ul>
+            <li>Turma: CC1Nb</li>
+            <li>Período: 1</li>
+            <li>Data: 04/06/2024</li>
+        </ul>
+        <form id="form">
+            <table>
+                <tr>
+                    <td class="td"><label for="nome">Nome:</label></td>
+                    <td class="td"><input type="text" id="nome"></td>
+                </tr>
+                <tr>
+                    <td class="td"><label for="matricula">Matrícula:</label></td>
+                    <td class="td"><input type="text" id="matricula"></td>
+                </tr>
+                <tr>
+                    <td class="td"><label for="nota1">Nota 1:</label></td>
+                    <td class="td"><input type="number" id="nota1" ></td>
+                </tr>
+                <tr>
+                    <td class="td"><label for="nota2">Nota 2:</label></td>
+                    <td class="td"><input type="number" id="nota2"></td>
+                </tr>
+                <tr>
+                <td id="tdr" colspan="2"><button id="register" type="submit">Registrar</button></td>
+                </tr>
+            </table>
+        </form>
+        <table id="res">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Matrícula</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Média</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button id="clear">Limpar Tabela</button>
+    </div>
+    <script src="scriptme.js"></script>
+</body>
+</html>
